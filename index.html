@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Link to Images Uploaded to GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #fff 3px solid;
+            text-align: center;
+        }
+        .container {
+            flex: 1;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        pre {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Link to Images Uploaded to GitHub</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>In this tutorial, you'll learn how to link to images uploaded to GitHub.  </p>
+
+            <h2>Steps to Link to Images on GitHub</h2>
+            <ol>
+                <li><strong>Upload Your Image:</strong> Go to your GitHub repository and upload your image to a directory within the repository. You can do this by dragging and dropping the image into the repository view.</li>
+                <li><strong>Find the Image URL:</strong> Once uploaded, navigate to the image file in the GitHub repository and click on it. Click on the "Download" button or right-click on the image and select "Copy image address" to get the direct URL of the image.</li>
+                <li><strong>Use the Image URL:</strong> To display the image in your markdown or HTML, replace the `blob` in the url to `raw`</li>
+            </ol>
+            
+
+            <p>if the link was</p> 
+            <pre><code>https://github.com/username/repository/blob/main/image.png</code></pre>
+
+            <p>change it to</p>
+            <pre><code>https://github.com/username/repository/raw/main/image.png</code></pre>
+
+            <p>This will redirect you to</p>
+            <pre><code>https://raw.githubusercontent.com/username/repository/main/image.png</code></pre>
+
+            <p>Or you can directly change the link as above</p>
+
+
+
+
+
+            
+             
+            
+            <h2>Conclusion</h2>
+            <p>By following these steps, you can easily link to images hosted on GitHub.  </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>thesophile</p>
+    </footer>
+</body>
+</html>
